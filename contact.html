@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognifyz Technologies</title>
+    <link rel="stylesheet" href="styles1.css" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav">
+            <div class="logo">
+                <a href="https://cognifyz.com/"><img src="C:\Users\user\Desktop\Landing page\images\cognifyz-1.png" alt="Company Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="C:\Users\user\Desktop\Landing page\index.html">Home</a></li>
+                <li><a href="C:\Users\user\Desktop\Landing page\contact.html">Contact Us</a></li>
+                <li><a href="C:\Users\user\Desktop\Landing page\aboutus.html">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h2>Start your journey with Cognifyz Technologies, where innovation meets your aspirations. Connect with us to initiate your plans and let's craft the future together!</h2>
+    <p>Submit your details, and let's begin shaping your vision into reality.</p>
+        <!-- Qualifications Section -->
+<section class="qualifications">
+    <h2 class="section-title">Contact Us</h2>
+    <div class="container">
+        <div class="qualification-box">
+            <img src= "C:\Users\user\Desktop\Landing page\images\web-development.png" width="130" height="130" viewBox="0 0 24 24">
+            <h2>Office address</h2>
+            <p>Nagpur, Maharashtra</p>
+        </div>
+        <div class="qualification-box">
+            <img src= "C:\Users\user\Desktop\Landing page\images\target.png" width="130" height="130" viewBox="0 0 24 24">
+            <h2>Mail Address</h2>
+            <p>cognifyztechnologies@gmail.com</p>
+        </div>
+    </div>
+</section>
+
+    <section class="form-section">
+        <h2>Apply Now</h2>
+        <form id="application-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="degree">Degree:</label>
+                <input type="text" id="degree" name="degree" required>
+            </div>
+            <div class="form-group">
+                <label for="institute">Institute:</label>
+                <input type="text" id="institute" name="institute" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <button type="button" id="submit-btn">Submit</button>
+        </form>
+    </section>
+    
+    <div id="submit-text" style="display: none;">Application submitted successfully!</div>
+    
+    <script>
+        document.getElementById('submit-btn').addEventListener('click', function() {
+            document.getElementById('submit-text').style.display = 'block'; // Show submit text
+            setTimeout(function() {
+                document.getElementById('submit-text').style.display = 'none'; // Hide submit text after 3 seconds
+            }, 3000);
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            var form = document.getElementById('application-form');
+            var submitBtn = document.getElementById('submit-btn');
+
+            if (form && submitBtn) {
+                submitBtn.addEventListener('click', function() {
+                    // Simulate form submission
+                    // Replace this with your actual form submission code
+                    alert('Form submitted!');
+
+                    // Set zoom level to 67%
+                    document.body.style.zoom = '67%';
+                });
+            }
+        });
+    </script>
+   <iframe 
+   width="2250" 
+   height="900" 
+   frameborder="0" 
+   scrolling="no" 
+   marginheight="0" 
+   marginwidth="0" 
+   src="https://osmand.net/go.html?lat=21.1466&lon=79.0882&zoom=12">
+</iframe>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-links">
+            <div class="footer-column">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="https://cognifyz.com/contact-us/">Contact</a></li>
+                    <li><a href="https://cognifyz.com/blog/">Blog</a></li>
+                    <li><a href="https://cognifyz.com/hire-from-us/">Careers</a></li>
+                    <li><a href="https://cognifyz.com/contact-us/">Support</a></li>
+                    <li><a href="https://cognifyz.com/terms-and-conditions/">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-column footer-column-right">
+            <img src="C:\Users\user\Desktop\Landing page\images\cognifyz-1.png" alt="Company Logo">
+        </div>
+            <div class="footer-column">
+                <h2>Follow Us</h2>
+                <ul class="social-icons">
+                        <li><a href="https://www.linkedin.com/company/cognifyz-techonologies/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoBf8MCKWzon4xTcmDs_ducuaEiiSy8g6nSw&usqp=CAU" alt="LinkedIn"></a></li>
+                        <li><a href="https://www.instagram.com/cognifyz_tech/"><img src="data:image/png;base64,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" alt="Instagram"></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCw3AbKUno4NQMWcPGFGOEZA"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV6Xob4dJZTvT60QA-XPmsoDcdB1engNRrsA&usqp=CAU" alt="YouTube"></a></li>
+                </ul>
+                <p class="copyright">2024 © All rights reserved by Cognifyz Technologies</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

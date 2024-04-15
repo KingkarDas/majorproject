@@ -1,0 +1,236 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #30b3a8;
+    color: #000000;
+    padding: 10px ;
+}
+p {
+    font-size: 25px; /* Adjust the value to increase or decrease the text size */
+    padding-left: 50px;
+    text-align: center;
+}
+h2 {
+    font-size: 30px; /* Adjust the value to increase or decrease the font size */
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    padding: 5px;
+    margin-left: 30px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin-right: 10;
+    padding: 5;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px; /* Add space between menu items */
+    margin-right: 20px;
+}
+
+.nav-links li:first-child {
+    margin-left: 0; /* Remove margin from the first menu item */
+}
+
+.nav-links a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* Footer Styles */
+.footer {
+    background-color: #6ebeb7;
+    color: #000000;
+    padding: 50px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1 0 300px;
+    margin-bottom: 20px;
+}
+
+.footer-column h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons li a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons li a:hover {
+    color: #ccc;
+}
+.footer-column {
+    flex: 1 0 50%;
+}
+
+.footer-column.footer-column-right {
+    text-align: right;
+}
+
+.footer-column.footer-column-right img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    text-align: right; 
+}
+.social-icons {
+    text-align: right; /* Align social icons to the right */
+    margin-top: 20px; /* Add some space between logo and social icons */
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-left: 10px; /* Add space between icons */
+}
+
+.social-icons img {
+    width: 30px; /* Adjust the width of the social icons */
+    height: auto; /* Maintain aspect ratio */
+}
+h2{
+    text-align: center;
+}
+/*form*/
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center; /* Align items vertically in the same row */
+}
+
+label {
+    margin-right: 10px; /* Add space between label and input box */
+    width: 100px; /* Adjust width as needed */
+    padding-left: 730px;
+    font-size: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    flex: 1; /* Allow input field to expand and fill remaining space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 600px;
+}
+
+button[type="button"] {
+    padding: 10px 20px;
+    background-color: #7509e9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1090px;
+    margin-bottom: 20px;
+    font-size:20px;
+    
+}
+
+button[type="button"]:hover {
+    background-color: #0056b3;
+}
+/* Qualifications Section Styles *//* Qualifications Section Styles */
+.qualifications {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.qualification-box {
+    flex: 1 0 300px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 10px 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qualification-box:hover {
+    transform: translateY(-5px);
+}
+
+.icon {
+    width: 36px;
+    height: 36px;
+    margin-bottom: 10px;
+}
+
+.qualification-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.qualification-box p {
+    font-size: 16px;
+    color: #666;
+}
